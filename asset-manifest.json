@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/personalwebsite/static/css/main.c9d4c51f.css",
+    "main.js": "/personalwebsite/static/js/main.e61533d7.js",
+    "static/media/meChurro.JPG": "/personalwebsite/static/media/meChurro.eda689ad42c2df1c9302.JPG",
+    "static/media/HEAD.jpg": "/personalwebsite/static/media/HEAD.4b1fe408c55a785cbb2b.jpg",
+    "static/media/Resume_Natalie_Lee.pdf": "/personalwebsite/static/media/Resume_Natalie_Lee.492758c6e97f9624351d.pdf",
+    "static/media/portfolio5.png": "/personalwebsite/static/media/portfolio5.e61f4e16d1480118e865.png",
+    "static/media/portfolio1.jpeg": "/personalwebsite/static/media/portfolio1.d94d23aa3470af06191c.jpeg",
+    "static/media/portfolio2_2.jpeg": "/personalwebsite/static/media/portfolio2_2.995b8e0f95148c8c7b7f.jpeg",
+    "index.html": "/personalwebsite/index.html",
+    "main.c9d4c51f.css.map": "/personalwebsite/static/css/main.c9d4c51f.css.map",
+    "main.e61533d7.js.map": "/personalwebsite/static/js/main.e61533d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9d4c51f.css",
+    "static/js/main.e61533d7.js"
+  ]
+}
