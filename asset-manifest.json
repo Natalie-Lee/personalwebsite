@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personalwebsite/static/css/main.cd6bf713.css",
-    "main.js": "/personalwebsite/static/js/main.578e605a.js",
+    "main.css": "/personalwebsite/static/css/main.6ad504cd.css",
+    "main.js": "/personalwebsite/static/js/main.ec305d38.js",
     "static/media/meChurro.JPG": "/personalwebsite/static/media/meChurro.eda689ad42c2df1c9302.JPG",
     "static/media/HEAD.jpg": "/personalwebsite/static/media/HEAD.4b1fe408c55a785cbb2b.jpg",
     "static/media/Resume_Natalie_Lee.pdf": "/personalwebsite/static/media/Resume_Natalie_Lee.492758c6e97f9624351d.pdf",
@@ -9,11 +9,11 @@
     "static/media/portfolio1.jpeg": "/personalwebsite/static/media/portfolio1.d94d23aa3470af06191c.jpeg",
     "static/media/portfolio2_2.jpeg": "/personalwebsite/static/media/portfolio2_2.995b8e0f95148c8c7b7f.jpeg",
     "index.html": "/personalwebsite/index.html",
-    "main.cd6bf713.css.map": "/personalwebsite/static/css/main.cd6bf713.css.map",
-    "main.578e605a.js.map": "/personalwebsite/static/js/main.578e605a.js.map"
+    "main.6ad504cd.css.map": "/personalwebsite/static/css/main.6ad504cd.css.map",
+    "main.ec305d38.js.map": "/personalwebsite/static/js/main.ec305d38.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd6bf713.css",
-    "static/js/main.578e605a.js"
+    "static/css/main.6ad504cd.css",
+    "static/js/main.ec305d38.js"
   ]
 }
