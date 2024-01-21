@@ -65,7 +65,7 @@ export const Experience = () => {
                 data.map(({id, title, image, time, description1, description2, description3, description4}) => {
                     return(
                     <article key={id} className="experience__options">
-                        <div  class="title_blocks">
+                        <div  className="title_blocks">
                           <div className="title_block">
                             <h2>
                                 <span class="title_img">{image}</span>
@@ -91,7 +91,7 @@ export const Experience = () => {
                         </div>
                         
                         <Collapse isOpened={activeIndex === id}>
-                          <div className={classNames(".experience_description",
+                          <div className={classNames("experience_description",
                                         {show: activeIndex === id,
                                           hide: activeIndex !== id
                                           })}>

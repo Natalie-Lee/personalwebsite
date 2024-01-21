@@ -36,7 +36,9 @@ export const Education = () => {
                     </h2>
                   </div>
                 </div>
-                <span>Information System Management</span>
+                <div className="major">
+                  <span>Information System Management</span>
+                </div>
               </article>
               <article className="education__options toggle js-toggle">
                 <div className="education__titles">
@@ -46,7 +48,9 @@ export const Education = () => {
                     </h2>
                   </div>
                 </div>
-                <span>Accounting</span>
+                <div className="major">
+                  <span>Accounting</span>
+                </div>
               </article>
             </div>
         </section>

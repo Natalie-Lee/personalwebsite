@@ -98,3 +98,23 @@
     font-size: smaller;
     right: 10%;
 }
+
+/*=============MEDIA QUERIES(MEDIUM DEVICES)==============*/
+@media screen and (max-width: 1024px) {
+  .education__titles {
+      font-size: medium;
+  }
+  .major {
+    font-size: medium;
+  }
+}
+
+/*=============MEDIA QUERIES(SMALL DEVICES)==============*/
+@media screen and (max-width: 600px) {
+  .education__titles {
+      font-size:x-small;
+  }
+  .major {
+    font-size: small;
+  }
+}
