@@ -58,8 +58,15 @@
 
 /*=============MEDIA QUERIES(MEDIUM DEVICES)==============*/
 @media screen and (max-width: 1024px) {
+    .experience__container {
+        width:100%;
+        left:0;
+    }
     .title_blocks {
         font-size: medium;
+    }
+    .title_block {
+        padding: 0 0.3rem 0 0;
     }
     .experience_description {
         font-size: medium;
@@ -68,6 +75,10 @@
 
 /*=============MEDIA QUERIES(SMALL DEVICES)==============*/
 @media screen and (max-width: 600px) {
+    .experience__container {
+        width:100%;
+        left:0;
+    }
     .title_blocks {
         font-size:x-small;
     }
