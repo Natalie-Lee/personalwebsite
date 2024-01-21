@@ -62,6 +62,10 @@
     .skill__container {
         grid-template-columns: 1fr;
     }
+    .skill__container > div:hover {
+        background: var(--color-bg-variant);
+        color: white;
+    }
     .skill__container {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
