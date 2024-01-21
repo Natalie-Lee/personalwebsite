@@ -1,0 +1,53 @@
+.experience__container {
+    width: 80%;
+    display: block;
+    position:relative;
+    left:10%;
+    gap: 12%;
+
+}
+
+.experience__options {
+    display: flex;
+    flex-direction: column;
+    margin: 1.2rem;
+    padding: 1rem;
+    color:#aaa;
+    border-radius: .5em;
+    box-shadow: 0px 5px 20px 1px;
+    animation: fadeInRight 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    span, p {
+        color: #555353;
+    }
+}
+
+.experience_description {
+    padding: 0 1rem;
+}
+
+.title {
+    color: grey;
+}
+
+.experience__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.experience__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--color-white);
+}
+
+.title_blocks {
+    border-radius: 1rem;
+}
+
+.title_block {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
