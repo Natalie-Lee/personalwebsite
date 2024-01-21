@@ -127,6 +127,11 @@
     .header_socials {
         margin-top: 6rem;
     }
+    .floatWord {
+        h1 {
+            font-size:larger;
+        }
+    }
 }
 
 /*=============MEDIA QUERIES(SMALL DEVICES)==============*/
