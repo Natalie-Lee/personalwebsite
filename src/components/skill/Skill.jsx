@@ -8,7 +8,7 @@ export const Skill = () => {
       <h5>What skills I have</h5>
       <h2>My skill</h2>
       <div className="container skill__container">
-        <div className="skill__frontend">
+        <div className="skill__block">
           <h3>Languages and Frameworks</h3>
           <div className="skill__content">
           <article className="skill__details">
@@ -77,7 +77,7 @@ export const Skill = () => {
 
           </div>
         </div>
-        <div className="skill__backend">
+        <div className="skill__block">
           <h3>Other Technologies</h3>
           <div className="skill__content">
             <article className="skill__details">

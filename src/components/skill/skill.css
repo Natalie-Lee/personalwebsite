@@ -24,6 +24,10 @@
     color: var(--color-primary);
 }
 
+.skill__block {
+    width: 100%;
+}
+
 .skill__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -44,9 +48,8 @@
     .skill__container {
         grid-template-columns: 1fr;
     }
-    .skill__container div {
+    .skill__container > div {
         width: 80%;
-        /* padding: 2rem; */
         margin: 0 auto;
     }
     .skill__content {
@@ -59,12 +62,12 @@
     .skill__container {
         grid-template-columns: 1fr;
     }
-    .skill__container div {
-        width: 100%;
-        /* padding: 2rem 1rem; */
-        margin: 0 auto;
+    .skill__container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
-    .skill__content {
-        /* padding: 1rem; */
+    .skill__container > div {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem;
     }
 }
