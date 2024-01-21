@@ -68,17 +68,17 @@ export const Experience = () => {
                         <div  className="title_blocks">
                           <div className="title_block">
                             <h2>
-                                <span class="title_img">{image}</span>
+                                <span className="title_img">{image}</span>
                             </h2>
                           </div>
                           <div className="title_block">
                             <h2>
-                                <span class="title">{title}</span>
+                                <span className="title">{title}</span>
                             </h2>
                           </div>
                           <div className="title_block">
                             <h2>
-                                <span class="collapse" 
+                                <span className="collapse" 
                                       data-toggle="collapse"
                                       onClick={event => setActiveIndex(
                                           activeIndex === id ? null : id

@@ -32,7 +32,7 @@ export const Education = () => {
                 <div className="education__titles">
                   <div className="education__title">
                     <h2>
-                        <span class="title">Carnegie Mellon University </span>
+                        <span className="title">Carnegie Mellon University </span>
                     </h2>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ export const Education = () => {
                 <div className="education__titles">
                   <div className="education__title">
                     <h2>
-                        <span class="title">National Taiwan University  </span>
+                        <span className="title">National Taiwan University  </span>
                     </h2>
                   </div>
                 </div>
