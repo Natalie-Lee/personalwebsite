@@ -52,6 +52,10 @@
     padding: 0 0.5rem;
 }
 
+.collapse {
+    cursor: pointer;
+}
+
 /*=============MEDIA QUERIES(MEDIUM DEVICES)==============*/
 @media screen and (max-width: 1024px) {
     .title_blocks {
