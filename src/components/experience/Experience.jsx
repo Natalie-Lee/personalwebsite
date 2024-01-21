@@ -43,7 +43,7 @@ const data = [
       {
         id: 4,
         image: <BsClipboardData/>,
-        title: 'Senior Assurance Associate @PriceWaterhouseCoopers',
+        title: 'Senior Assurance Associate @PwC',
         time: '2015 Sep - 2019 June',
         description1:'• Led two I.P.O cases for biotech companies.',
         description2:'• Planned, led, and file reports for annual auditing to 10+ companies annually.',
