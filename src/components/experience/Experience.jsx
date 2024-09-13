@@ -15,10 +15,11 @@ const data = [
       image: <FaRobot/>,
       title: 'Software Engineer @Salesforce',
       time: '2023 May - Recent',
-      description1:'• Architect, design, implement, test and deliver highly scalable products.',
-      description2:'• Proactively investigate incidents and resolve customer issues promptly.',
-      description3:'• Collaborate closely with strategic partners, such as AWS and Genesys, to deliver a seamlessly customized service.',
-      description4:'• Drive quality assurance by developing effective test strategies, designing automation frameworks, and writing unit/functional tests to enhance code coverage and automation metrics.',
+      description1:'• Led the design and development of a feature that allows better management of messaging capacity and pause functionality for contact center agents. Worked closely with other teams to integrate external data, update the user interface, and ensure seamless functionality within the core system. Also played a key role in designing a multi-party conference call feature, contributing to technical decisions, and leading rigorous testing sessions to guarantee high-quality performance.',
+      description2:'• Resolved a critical incident involving the supervisor listen-in feature, diagnosing and fixing a bug affecting over 250 enterprise clients and 1000+ end users. Identified the root cause and delivered a solution in three hours, minimizing downtime and maintaining service reliability.',
+      description3:'• Overcame complex challenges while developing dynamic configuration for demo telephony connector, refactoring a critical component used by four teams and 50+ internal users. Designed and implemented refactoring, mitigating timing issues and potential regressions through collaboration with multiple teams and extensive testing.',
+      description4:'• Partnered closely with product managers to address customization needs and urgent client requests. Worked with QA to propose and execute comprehensive test plans, organizing cross-team testing sessions. Maintained strong relationships with key partners like AWS and Natterbox through regular meetings, providing technical support and Q&A for their integration needs.',
+      description5:'• Mentored a junior engineer, guiding investigation processes, debugging tools, and development practices. Led weekly debugging sessions and facilitated knowledge transfer to improve team efficiency and skill development.'
     },
     {
       id: 2,
@@ -62,7 +63,7 @@ export const Experience = () => {
             <h2>Work Experience</h2>
             <div className="experience__container">
             { 
-                data.map(({id, title, image, time, description1, description2, description3, description4}) => {
+                data.map(({id, title, image, time, description1, description2, description3, description4, description5}) => {
                     return(
                     <article key={id} className="experience__options">
                         <div  className="title_blocks">
@@ -100,6 +101,7 @@ export const Experience = () => {
                               <p>{description2}</p>
                               <p>{description3}</p>
                               <p>{description4}</p>
+                              <p>{description5}</p>
                           </div>                          
                         </Collapse>
 

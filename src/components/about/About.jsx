@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/meChurro.JPG'
+import ME from '../../assets/ME_SELF.JPG'
 import { AiFillTrophy } from 'react-icons/ai'
 import { AiOutlineUser } from 'react-icons/ai'
 import { AiFillProject } from 'react-icons/ai'
